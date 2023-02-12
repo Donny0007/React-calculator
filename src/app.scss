@@ -1,0 +1,74 @@
+$bd:solid black 1px;
+
+button{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 4px;
+    margin: 5px;
+    height: 60px;
+    width: 70px;
+    border: none;
+    border-radius: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    
+}
+
+button:hover{
+    background-color: lightblue;
+    color: salmon;
+}
+
+.calculator{
+    border-radius: 10%;
+    margin: auto;
+    width: 25%;
+    height: 550px;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    left: 20%;
+    background-color: darkslategray;
+}
+
+.jumbotron{
+    height: 60px;
+    padding: 4px;
+    background-color: darkslategray;
+    color: antiquewhite;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.row {
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 5px;
+    width: 80%;
+    border: none;
+    padding: 6px;
+  }
+  
+
+input[type='text']{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 44px;
+    margin-left: 20px;
+    width: 90%;
+    height: 50px;
+    background-color: darkgrey;
+    text-align: right;
+}
+
+.btn-box{
+    border: none;
+    width: 90%;
+    margin: auto;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+.btn{
+    width: 92%;
+}
